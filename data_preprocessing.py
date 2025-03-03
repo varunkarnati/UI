@@ -73,7 +73,7 @@ def create_vectorstore():
     store = InMemoryStore()
     id_key = "doc_id"
     
-    pc = pineC(api_key="pcsk_2wZScE_zP5hG6kdQWfDA6jg7FLSZGFYf6VLPeaAF8mXrX3zGJPUx9rEkTVVSCX9T8w8Tg")
+    pc = pineC(api_key=os.environ["PINECONE_API_KEY"])
 
     index_name = "gaidorag"
     text_field = "text"
