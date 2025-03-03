@@ -1,0 +1,12 @@
+pdfplumber
+tiktoken
+langchain
+langchain-community
+langchain-openai
+langchain-groq
+python-dotenv
+langchain-huggingface
+ragas
+datasets
+langchain-pinecone
+streamlit
